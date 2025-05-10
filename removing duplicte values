@@ -13,3 +13,20 @@ public class reversestring{
         System.out.println("after removing duplicate values:"+newnames);
     }
 }
+----------------code for integer is below-----------------------------
+import java.util.Set;
+import java.util.HashSet;
+
+public class RemoveIntegerDuplicates {
+    public static void main(String args[]) {
+        int[] numbers = {1, 2, 2, 3, 4, 4, 5};
+
+        Set<Integer> uniqueNumbers = new HashSet<Integer>();
+
+        for (int num : numbers) {
+            uniqueNumbers.add(num);
+        }
+
+        System.out.println("After removing duplicate values: " + uniqueNumbers);
+    }
+}
