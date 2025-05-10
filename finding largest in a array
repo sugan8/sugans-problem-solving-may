@@ -1,0 +1,16 @@
+public class maxfinder{
+    public static void main(String args[]){
+        int []numbers={1,2,3,44,5,67,};
+        int largest=findLargest(numbers);
+        System.out.println("Largest number:"+largest);
+    }
+    public static int findLargest(int[]a){
+        int max=a[0];
+        for(int num:a){
+            if(num>max){
+                max=num;
+            }
+        }
+        return max;
+    }
+}
