@@ -1,0 +1,15 @@
+// remove duplicates elements from list
+import java.util.Set;
+import java.util.HashSet;
+public class reversestring{
+    public static void main(String args[]){
+        String []names={"ram","ram","raja","raajiv"};
+        
+        Set<String>newnames=new HashSet<String>();
+        
+        for(String n:names){
+            newnames.add(n);
+        }
+        System.out.println("after removing duplicate values:"+newnames);
+    }
+}
