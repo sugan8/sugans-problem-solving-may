@@ -1,0 +1,11 @@
+import java.util.Arrays;
+
+public class sortarry{
+    public static void main(String args[]){
+        int[]numbers={2,45,1,6,3};
+        Arrays.sort(numbers);
+        System.out.println("sorted arrays:"+Arrays.toString(numbers));
+    }
+}
+
+//sort an array in java
