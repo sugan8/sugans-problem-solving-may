@@ -1,0 +1,12 @@
+// convert string to int
+public class stringtoint{
+    public static void main (String args[]){
+        String str="100";
+        int X=Integer.parseInt(str);
+        System.out.println("string to integer converted value is: " +str);
+        
+        int y=200;
+        String a = String.valueOf(y);
+        System.out.println("integer converted to string is:" +a);
+    }
+}
