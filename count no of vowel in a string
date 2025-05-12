@@ -1,0 +1,32 @@
+// check the string contains vowel
+public class SimpleVowelCounter {
+    public static void main(String[] args) {
+        String input = "rhythm";
+        int count = 0;
+
+        for (char c : input.toLowerCase().toCharArray()) 
+        {
+            if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
+                count++;
+            }
+        }
+
+        System.out.println("Number of vowels: " + count);
+    }
+}
+// public class SimpleVowelCounter {
+//     public static void main(String[] args) {
+//         String input = "rhythmhe";
+//         int count = 0;
+//         String vowels = "aeiou";
+
+//         for (char c : input.toLowerCase().toCharArray()) {
+//             // indexOf returns –1 if c is not found
+//             if (vowels.indexOf(c) != -1) {
+//                 count++;
+//             }
+//         }
+
+//         System.out.println("Number of vowels: " + count);
+//     }
+// }
